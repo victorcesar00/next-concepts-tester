@@ -1,52 +1,52 @@
 # Next.js - Complete Educational Guide
 
-Uma aplicação educacional e explicativa que demonstra todos os recursos e conceitos do Next.js, focando no App Router e nas funcionalidades modernas.
+An educational and explanatory application that demonstrates all Next.js features and concepts, focusing on the App Router and modern functionalities.
 
-## 🚀 Recursos Demonstrados
+## 🚀 Demonstrated Features
 
 ### Routing
-- File-based routing (roteamento baseado em arquivos)
-- Páginas e layouts
-- Rotas dinâmicas
-- Navegação com Link
-- Rotas de grupo
-- Rotas paralelas
+- File-based routing
+- Pages and layouts
+- Dynamic routes
+- Navigation with Link
+- Route groups
+- Parallel routes
 
 ### Server Components
 - Server Components vs Client Components
-- Quando usar cada um
-- Composição de Server e Client Components
-- Streaming e Suspense
+- When to use each one
+- Composition of Server and Client Components
+- Streaming and Suspense
 
 ### Data Fetching
-- Fetch em Server Components
-- Opções de cache
+- Fetch in Server Components
+- Cache options
 - Server Actions
 - use() hook
 - Loading states
 - Error handling
 
 ### Metadata & SEO
-- Metadata estático
-- Metadata dinâmico
-- Open Graph e Twitter Cards
-- Robots e Sitemap
-- Viewport e Icons
+- Static metadata
+- Dynamic metadata
+- Open Graph and Twitter Cards
+- Robots and Sitemap
+- Viewport and Icons
 
 ### Middleware
-- Autenticação e proteção de rotas
-- Headers customizados
-- Rewrite e Redirect
-- Internacionalização (i18n)
+- Authentication and route protection
+- Custom headers
+- Rewrite and Redirect
+- Internationalization (i18n)
 - Matcher config
 
 ### API Routes
-- Route Handlers básico
-- Métodos HTTP
-- Parâmetros dinâmicos
-- Request e Response
-- Streaming e Edge Runtime
-- CORS e headers customizados
+- Basic Route Handlers
+- HTTP methods
+- Dynamic parameters
+- Request and Response
+- Streaming and Edge Runtime
+- CORS and custom headers
 
 ### Optimization
 - Image optimization
@@ -57,102 +57,102 @@ Uma aplicação educacional e explicativa que demonstra todos os recursos e conc
 - Performance best practices
 
 ### Advanced Features
-- Caching e revalidação
-- Streaming e Suspense
+- Caching and revalidation
+- Streaming and Suspense
 - Error boundaries
-- Route groups e parallel routes
+- Route groups and parallel routes
 - Intercepting routes
-- Server Actions avançadas
-- Configurações avançadas
+- Advanced Server Actions
+- Advanced configurations
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
-- **Next.js 14+** - Framework React com App Router
-- **TypeScript** - Tipagem estática
-- **React 18** - Biblioteca UI
-- **Tailwind CSS v4** - Framework CSS utility-first
+- **Next.js 14+** - React framework with App Router
+- **TypeScript** - Static typing
+- **React 18** - UI library
+- **Tailwind CSS v4** - Utility-first CSS framework
 
-## 📦 Instalação
+## 📦 Installation
 
 ```bash
-# Instalar dependências
+# Install dependencies
 npm install
 
-# Executar em modo desenvolvimento
+# Run in development mode
 npm run dev
 
-# Build para produção
+# Build for production
 npm run build
 
-# Executar build de produção
+# Run production build
 npm start
 ```
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 next-concepts-tester/
 ├── app/                    # App Router (Next.js 13+)
-│   ├── routing/           # Página de roteamento
-│   ├── server-components/ # Página de Server Components
-│   ├── data-fetching/     # Página de data fetching
-│   ├── metadata/          # Página de metadata
-│   ├── middleware/        # Página de middleware
-│   ├── api-routes/        # Página de API routes
-│   ├── optimization/      # Página de otimização
-│   ├── advanced/          # Página de recursos avançados
-│   ├── layout.tsx         # Layout raiz
-│   ├── page.tsx           # Página inicial
-│   └── globals.css        # Estilos globais
-├── components/            # Componentes reutilizáveis
-│   ├── Navigation.tsx     # Navegação principal
-│   ├── ExampleCard.tsx    # Card para exemplos
-│   └── CodeBlock.tsx      # Componente para exibir código
+│   ├── routing/           # Routing page
+│   ├── server-components/ # Server Components page
+│   ├── data-fetching/     # Data fetching page
+│   ├── metadata/          # Metadata page
+│   ├── middleware/        # Middleware page
+│   ├── api-routes/        # API routes page
+│   ├── optimization/      # Optimization page
+│   ├── advanced/          # Advanced features page
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Home page
+│   └── globals.css        # Global styles
+├── components/            # Reusable components
+│   ├── Navigation.tsx     # Main navigation
+│   ├── ExampleCard.tsx    # Example card
+│   └── CodeBlock.tsx      # Component to display code
 ├── package.json
 ├── tsconfig.json
 ├── next.config.js
 └── tailwind.config.ts
 ```
 
-## 🎨 Estilização
+## 🎨 Styling
 
-A aplicação usa Tailwind CSS v4 com o mesmo estilo visual da aplicação Vue, incluindo:
-- Suporte a dark mode
-- Cores consistentes (zinc, blue, etc.)
-- Layout responsivo
-- Componentes com bordas e sombras sutis
+The application uses Tailwind CSS v4 with the same visual style as the Vue application, including:
+- Dark mode support
+- Consistent colors (zinc, blue, etc.)
+- Responsive layout
+- Components with subtle borders and shadows
 
-## 📚 Navegação
+## 📚 Navigation
 
-A aplicação está organizada em seções educacionais:
+The application is organized into educational sections:
 
-1. **Home** - Visão geral e índice
-2. **Routing** - Roteamento baseado em arquivos
+1. **Home** - Overview and index
+2. **Routing** - File-based routing
 3. **Server Components** - Server vs Client Components
-4. **Data Fetching** - Estratégias de busca de dados
-5. **Metadata & SEO** - Configuração de metadata e SEO
-6. **Middleware** - Interceptação de requisições
+4. **Data Fetching** - Data fetching strategies
+5. **Metadata & SEO** - Metadata and SEO configuration
+6. **Middleware** - Request interception
 7. **API Routes** - Route Handlers
-8. **Optimization** - Otimizações de performance
-9. **Advanced** - Recursos avançados
+8. **Optimization** - Performance optimizations
+9. **Advanced** - Advanced features
 
-## 💡 Uso Educacional
+## 💡 Educational Use
 
-Esta aplicação foi criada para:
-- Aprender Next.js do zero
-- Entender conceitos do App Router
-- Ver exemplos práticos de cada conceito
-- Experimentar com código interativo
-- Referência rápida para recursos do Next.js
+This application was created to:
+- Learn Next.js from scratch
+- Understand App Router concepts
+- See practical examples of each concept
+- Experiment with interactive code
+- Quick reference for Next.js features
 
-Cada seção contém:
-- Explicações claras
-- Exemplos de código
-- Demonstrações interativas quando aplicável
-- Boas práticas
+Each section contains:
+- Clear explanations
+- Code examples
+- Interactive demonstrations when applicable
+- Best practices
 
-## 📝 Licença
+## 📝 License
 
-Este projeto é educacional e pode ser usado livremente para aprendizado.
+This project is educational and can be freely used for learning.
 
 
